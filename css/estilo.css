@@ -1,0 +1,164 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+	/* 
+	cor-de-fundo: #f7b600;
+	margens-inernas: 15px;
+	texto-alinhamento: centralizado;
+	*/
+}
+
+#area-logo, #area-menu {
+	/* margens-interas:10px; */
+}
+
+#area-principal {
+	/* 
+	largura 920px;
+	margens-externas: 0 auto;
+	margens-internas:15px; 
+	*/
+}
+
+#area-postagens {
+	/* 
+	largura: 660px; 
+	flutuador: left; 
+	
+	*/
+	
+}
+
+#area-lateral {
+	/* 
+	larguura: 240px;
+	flutuador: right;
+	 */
+	
+}
+
+.postagem{
+	/* 
+	margens-internas: 20px;
+	margem-externa-inferior: 20px;
+	fundo: white;
+	 */
+	
+}
+
+.conteudo-lateral {
+	/* 
+	fundo: white;
+	margens-internas: 10px;
+	margem-externa-inferior: 20px;
+	*/
+	
+}
+
+.postagem-lateral {
+	/* 
+	tamanho-fonte: 0.8em;
+	margens-externas: 5px;
+	bordar-inferior: 1px dottes #CCC;
+	*/
+	
+}
+
+#rodape {
+	clear: both;
+	/* 
+	texto-alinhamento: centralizado;
+	margens-externas: 15px;
+	fundo: #CCC;
+	*/
+	
+}
+
+/*
+**** Formatação do menu ****
+*/
+a {
+	text-decoration: none;	
+}
+
+a:link, a:visited {
+	/* 
+	cor: #f7b600
+	*/
+}
+
+a:hover {
+	/* texto-decorado: underline */
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	/* cor: #FFF; */
+	/* margens-externas: 8px 12px; */
+}
+
+#area-cabecalho a:hover {
+	/* 
+	cor: #f7b600;
+	fundo: #FFF;
+	texto-decorado: none; 
+	*/
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+	/* 
+	cor: #4e4e4e;
+	tamanho-fonte: 2.5em; 
+	*/
+}
+
+h2 {
+	/* 
+	cor: #f7b600; 
+	*/
+}
+
+h3 {
+	/* 
+	cor: #565656;
+	fundo: #CCC;
+	margens-internas: 5px; 
+	*/
+}
+
+.branco{
+	/* 
+	cor: white; 
+	*/
+}
+
+.data-postagem {
+	/* 
+	tamanho-fonte: 0.8em;
+	bordar-inferior: 1px solid #f4f4f4;
+	margem-interna-inferior: 10px;
+	margem-externa-inferior: 10px;
+	*/
+	display: block; 
+}
+
+
+
+
+
+
