@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="page-header">
+                Exemplo 3 - Formulário estilizado
+            </h1>
+
+            <form action="pagina.html" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" placeholder="999.999.999-99"><br>
+    
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="address@server"><br>
+    
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx)"><br>
+
+                <label for="celular">Celular</label>
+                <input type="tel" name="celular" id="celular" placeholder="(xx) xxxxx-xxxx"><br>
+            
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="PR">Paraná</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </select>
+
+                <label for="cidade">Cidade</label>
+                <select name="cidade" id="cidade">
+                    <option value="CMPO">Campo Mourão</option>
+                    <option value="ARA">Araruna</option>
+                    <option value="Jur">Juranda</option>
+                    <option value="Cal">California</option>
+                </select>
+            </form>
+            
+        </div>
+    </body>
+</html>
